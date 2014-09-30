@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>PeerEditr | The Power of Feedback</title>
+   
+    <link rel="icon" href="logo.png">
+    
+
+    <link rel='stylesheet' href='styles.css'/>
+  	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="jquery.modal.css" type="text/css" media="screen">
+    
+    
+  </head>
+  <body style="min-width:1200px; margin: 0 auto; font-family:Helvetica">
+		<div id="vidback"  style="height:550px; background:url(http://desgate.com/wp-content/uploads/2014/03/flat_bg_slide_1_2.jpg)">
+			<div class="container" style="padding-top:15px; padding-bottom:15px; width:1090px; margin:0 auto">
+				<div class="logo"><img src="logo.png" style="height:40px"/></div>
+				<div class="nav" style="margin-left:550px; margin-top:-30px; font-size:14px;">
+					<a href="#technology" style="float:left; text-decoration:none; color:#EDEDED">Technology</a>
+					<a href="#features" style="float:left; margin-left:35px; text-decoration:none; color:#EDEDED">Features</a>
+					<a href="#team" style="float:left; margin-left:35px; text-decoration:none; color:#EDEDED">Team</a>
+					<a href="#contact" style="float:left; margin-left:35px; text-decoration:none; color:#EDEDED">Contact Us</a>
+					<a href="#press" style="float:left; margin-left:35px; text-decoration:none; color:#EDEDED">Press</a>
+				</div>
+     
+     
+    <div class="text" style="margin-top:20px; text-align:center;"><!--120 float:left-->
+
+					<center>
+          <h1 style="font: 400 100px/1.3 'Pacifico', Helvetica, sans-serif;
+  color: black;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1);">PeerEditr. </h1></center><!--<span data-typer-targets="Sharpen your debate, Enhance your essay"></span></h1><!--<h1 style="color:#fff; font-weight:100; font-size:50px; font-family:'Noto Sans'">PeerEditr.</h1></center>
+					<h4 style="color:#EDEDED; width:700px; font-size:20; font-weight:200; font-family:'Noto Sans'; line-height:30px">That's the power of feedback!</h4>
+-->
+  <h4 style="font-family:'Open Sans'; font-weight:300; color:black; margin-top:20px; font-size:35px; ">A P2P platform for crowdsourced feedback on all your <br><span  data-typer-targets="essays,projects,presentations,research papers,lab reports,creations"></span></h4>
+    </div>
+        <div class="container" style="width:500px; float:center; color:red;margin-top:40px;">
+        <link href='bootstrap.min.css' rel='stylesheet' type='text/css'>
+        <div class="input-group input-group-lg" >
+  <span class="input-group-addon">@</span>
+  <input type="text" class="form-control" placeholder="Sign up for early access!">
+</div>
+        </div>
+    </div>
+     
+    </div>
+    
+  <a name="technology"></a>
+		<div class="technology" style="margin-top:40px; width:1100px; margin:0 auto;">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>	
+			<center>
+			<span style="font-family:'Open Sans'; font-weight:300; color:#878787; margin-top:80px; font-size:35px;">The power of feedback.</span>
+			</center>
+			<br>
+			<br>
+			<div class="three" style="margin-top:20px; margin-left:-20px ">
+				<div class="mytech" style="float:left;">
+					<img src="comment.png" style="width:100px; margin-left:45px"/>
+					<h3 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C;"><strong>Crowdsourced feedback.</strong></h3>
+					<h4 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C; width:300px; font-size:14px; line-height:25px">Our community of credible contributors and reviewers ensure your work reaches its full potential!</h4>
+				</div>
+				<div class="stack" style="float:left; margin-left:90px; margin-right:90px">
+					<img src="connect.png" style="width:100px; margin-left:85px"/>
+					<h3 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C; margin-top:8px"><strong>UX for collaboration.</strong></h3>
+					<h4 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C; width:300px; font-size:14px; line-height:25px">Our custom designed UI and UX are dedicated to making feedback a snap!</h4>
+				</div>
+				<div class="ml" style="text-align:left">
+					<img src="security.png" style="width:100px; margin-left:80px"/>
+					<h3 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C; margin-top:0px;"><strong>Ensuring security of your work.</strong></h3>
+					<h4 style="font-family:'Open Sans'; font-weight:400; color:#5C5C5C;font-size:14px; line-height:25px; ">Our privacy filters, legal teams, and special viewing interface work hard to protect your work!</h4>
+				</div>
+			</div>
+    <br> <br><br><br><br><br><br><br><br><br><br><br><br><br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- Jquery includes:-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	  <script src="jquery.typer.js"></script>
+    <script>
+		$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+		$('[data-typer-targets]').typer();
+		$.typer.options.typerOrder = 'sequential';
+	</script>
+    </body>
+  
+  
+  
+  
+  
+</html>
